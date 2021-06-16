@@ -1,0 +1,359 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/*Utility Classes*/
+.container{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.column{
+  margin-left: 11.9%;
+  float: left;
+  width: 1.33%;
+  padding: 10px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.text-primary{
+  color: #8A95FF;
+}
+.lead{
+  font-size: 20px;
+}
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.btn:hover{
+  background: #8A95FF;
+  color: #333;
+}
+
+.btn-light{
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+.bg-grey{
+  background: #7C7C7C;
+  color: #fff;
+}
+.bg-lg{
+	background: #E7E7E7;
+	color: #333;
+}
+.bg-light{
+  background: #f4f4f4;
+  color: #333333;
+}
+.bg-primary{
+  background: #8A95FF;
+  color: #333;
+}
+.bg-grey2{
+	background: #D7D7D7;
+	color: #565656;
+}
+.clr{
+  clear: both;
+}
+
+.l-heading{
+  font-size: 40px;
+  line-height: 1.2;
+}
+.l-heading2{
+  font-size: 30px;
+  line-height: 1.2;
+}
+.l-heading3{
+  font-size: 50px;
+  line-height: 1.2;
+}
+.l-heading4{
+  font-size: 20px;
+  line-height: 1.2;
+}
+/*Padding*/
+.py-1{
+  padding: 10px 0;
+}
+.py-2{
+  padding: 20px 0;
+}
+.py-3{
+  padding: 30px 0;
+}
+.py-4{
+  margin-left: 11.9;
+  padding: 40px 0px;
+}
+/*Image Style*/
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer
+}
+.w3-badge {
+	height:13px;width:13px;padding:0
+}
+/*-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"*/
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+	font-size: 14px;
+}
+/*Main Styling*/
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+
+/*Navbar*/
+#navbar{
+  background: #333;
+  color: #fff;
+  overflow: auto;
+  
+}
+
+#navbar a{
+  color: #fff;
+}
+
+#navbar .logo{
+  float: left;
+  padding-top: 25px;
+}
+
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 43.5px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current
+{
+  
+  color: #8A95FF;
+}
+
+/*Waiter*/
+
+#waiter-form .form-group{
+  margin-bottom: 20px;
+}
+
+#waiter-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*Table button*/
+
+.dropbtn {
+  
+  background-color: #333;
+  color: #EAEAEA;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.9s;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #202020;
+	
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('../img/searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dropdown {
+  left: 320px;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {
+	display: block;
+}
+
+/* The container */
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container1 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #E4E4E4;
+  border:0.5px solid #D0D0D0;
+  border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.container1:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container1 input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container1 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container1 .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*Plus Minus Button*/
+
+.number	span {cursor:pointer; }
+		.number{
+			margin:-3px;
+		}
+		.minus, .plus{
+			width:28px;
+			height:26px;
+			background:#E4E4E4;
+			border-radius:4px;
+			
+			border:0.5px solid #D0D0D0;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+		}
+.minus:hover, .plus:hover{
+	background: #ccc;
+}
+.number	input{
+			height:26px;
+      width: 70px;
+      text-align: center;
+      font-size: 14px;
+			border:1px solid #D0D0D0;
+			border-radius:4px;
+      display: inline-block;
+      vertical-align: middle;
+}
